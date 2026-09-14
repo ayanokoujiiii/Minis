@@ -1,0 +1,8 @@
+{
+  "name": "Minis MCP",
+  "forwardPorts": [8787],
+  "portsAttributes": {
+    "8787": { "label": "Minis MCP", "onAutoForward": "openBrowser" }
+  },
+  "postStartCommand": "nohup python3 /workspaces/Minis/mcp_server.py >/tmp/minis-mcp.log 2>&1 &"
+}
