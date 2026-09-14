@@ -1,0 +1,2 @@
+# Minis
+For Linux do
